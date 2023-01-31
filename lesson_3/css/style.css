@@ -1,0 +1,43 @@
+@import url('reset.css');
+
+h1{
+    color:cornflowerblue;
+}
+
+.motivation_header{
+    color: crimson;
+}
+
+.type.text{
+    color: rgb(31, 231, 31);
+}
+
+#list li{
+    color: rgb(230, 33, 230);
+}
+
+div.tips{
+    color: rgb(36, 232, 232);
+}
+
+a,
+h3{
+    color: rgb(225, 53, 102);
+}
+
+.content p{
+    color:blue;
+}
+
+.causes *{
+    color:rgb(64, 159, 127);
+}
+
+#types > li{
+    color: khaki;
+}
+
+.advantages ~ p{
+    color: brown;
+}
+
