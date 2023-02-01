@@ -1,0 +1,81 @@
+@import url('reset.css');
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    src: url('../fonts/FONTSPRINGDEMO-ProximaNovaExCnMediumRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-ProximaNovaExCnMediumRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    src: url('../fonts/FONTSPRINGDEMO-ProximaNovaExCnMediumItalic.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-ProximaNovaExCnMediumItalic.woff2') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    src: url('../fonts/FONTSPRINGDEMO-ProximaNovaExCnLightRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-ProximaNovaExCnLightRegular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(137, 129, 129);
+    line-height: 2;
+    letter-spacing: 3px;
+}
+
+h1,h2{
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(93, 64, 34);
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+.life p{
+    text-align: left;
+    text-shadow: rgb(16, 16, 16) 1px 0 10px;
+}
+
+.life{
+    text-indent: 20px;
+}
+
+footer p{
+    text-align: right;
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.style_of_life{
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.appearance{
+    font-family: 'FONTSPRING DEMO - Proxima Nova ExCn';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
