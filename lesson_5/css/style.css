@@ -1,0 +1,87 @@
+@import url('/css/reset.css');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color:#6C757D;
+}
+
+.title{
+    font-weight: 700;
+font-size: 25px;
+line-height: 160%;
+color: #212529;
+max-width: 400px;
+
+}
+
+.main_content p{
+font-size: 14px;
+line-height: 179%;
+margin-bottom: 37px;
+}
+
+.main_content{
+    margin: 0 auto;
+    max-width: 816px;
+    margin-bottom: 80px;
+}
+
+.title{
+    margin-bottom: 40px;
+}
+
+.main_content:last-child{
+    margin: 0px;
+}
+
+.images{
+max-width: 1240px;
+margin: 0 auto;
+margin-bottom: 80px;
+}
+
+.section p{
+    font-size: 14px;
+    line-height: 179%;
+    margin-bottom: 37px;
+}
+
+.section-title{
+    max-width: 605px;
+    font-weight: 700;
+font-size: 25px;
+line-height: 160%;
+color: #212529;
+margin-bottom: 40px;
+}
+
+
+.section p:last-child{
+   margin-top: 0px;
+}
+
+.section{
+    margin: 0 auto;
+    max-width: 816px;
+    margin-bottom: 80px;
+}
+
+.section-images{
+    font-size: 0px;
+    margin: 0 auto;
+    max-width: 1280px;
+    margin-bottom: 80px;
+}
+
+.section-images img{
+    margin-right: 30px;
+    
+}
+
+.footer-text{
+    max-width: 816px;
+    margin: 0 auto;
+    font-size: 14px;
+   line-height: 179%;
+}
