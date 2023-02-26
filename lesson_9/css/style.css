@@ -1,0 +1,43 @@
+@import url("reset.css");
+
+body{
+    background-color: rgb(48, 5, 95);
+    font-family: 'Roboto', sans-serif;
+    color:antiquewhite;
+    font-size: 20px;
+}
+
+.icons{
+    max-width: 1350px;
+}
+.icons p{
+    margin-bottom: 30px;
+}
+
+ .icons img{
+display:inline-block;
+vertical-align:bottom;
+margin-bottom: 30px;
+}
+
+.icons img:not(:last-child){
+    margin-right: 10px;
+}
+
+
+[class*='__container'] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img{
+    font-size: 0;
+    max-width: 100%;
+}
+
+img:not(:last-child) {
+    margin-bottom: 30px;
+    margin-right: 35px;
+}
