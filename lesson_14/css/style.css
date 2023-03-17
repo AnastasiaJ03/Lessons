@@ -1,0 +1,141 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+.wrapper{
+    overflow: clip;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F9FA;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+    [class*="__container"]{
+        max-width: 1300px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main {
+        flex:1 1 auto;
+        padding: 50px 0;
+    }
+
+    .main__columns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 0 44px 0;
+    }
+   
+    .columns__link{
+        color:#495057;
+        font-weight: 500;
+        line-height: 208%;
+     }
+
+     .columns__link:hover{
+        color: rgba(73, 80, 87, 0.5);
+     }
+
+     .menu__link {
+        color:#495057;
+        font-weight: 500;
+        line-height: 208%;
+    }
+
+    .menu__link:hover {
+        color: rgba(73, 80, 87, 0.5);
+    }
+
+   .columns__link::after{
+    display: inline-block;
+    content:"+";
+    width: 9px;
+    height: 25px;
+    padding-left: 7px;
+ }
+
+    .menu__list {
+        display: flex;
+        column-gap: 20px;
+    }
+   
+
+
+    .main__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap:30px;
+        row-gap: 45px;
+    }
+
+    .cards__image img {
+        max-width: 100%;
+        transition: all 0.4s;
+    }
+
+     .cards__image img:hover{
+        transform: scale(1.2);
+    }
+
+    .cards__image{
+    flex:1 1 393px;
+    color: #495057;
+    line-height: 167%;
+}
+
+    .image__card {
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+   
+    .image__text {
+        display: flex;
+        flex-direction:column;
+        gap:15px;
+    }
+    .text {
+    }
+    .text__data {
+
+    }
+    .text__title {
+        font-weight: 700;
+font-size: 25px;
+line-height: 160%;
+color: #212529;
+
+    }
+    
+    .text__content {
+        max-width: 400px;
+    }
+    
+    .button__link{
+        padding:8px 50px;
+        background: #212529;
+        border-radius: 3px;
+        font-weight: 500;
+font-size: 12px;
+line-height: 25px;
+color: #F8F9FA;
+    }
+
+    .button__link:hover{
+        text-decoration: underline;
+    }
+
+    .button{
+        margin: 0 auto;
+        
+    }
